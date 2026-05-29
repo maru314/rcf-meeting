@@ -1,0 +1,27 @@
+{
+    "captain_name": "あなたの名前",
+    "backend": "ollama",
+    "model": "qwen3.5:9b",
+    "num_ctx": 32768,
+    "ollama_url": "http://localhost:11434",
+    "lmstudio_url": "http://localhost:1234",
+    "max_retries": 3,
+    "timeout": 120,
+    "recent_rounds": 2,
+    "logging": true,
+    "suggest_questions": true,
+    "personas": [
+        {
+            "name": "ペルソナ1",
+            "icon": "⭐",
+            "color": "#4fc3f7",
+            "system_prompt_file": "personas/ペルソナ1.txt"
+        },
+        {
+            "name": "ペルソナ2",
+            "icon": "⭐",
+            "color": "#ce93d8",
+            "system_prompt_file": "personas/ペルソナ2.txt"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+# 個人設定
+config.json
+
+# ログ（全て非公開）
+logs/
+
+# ペルソナプロンプト（個人が育てるもの）
+personas/
+!personas/example/
+
+# アップロード資料
+documents/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 環境
+.env
+.venv/
+venv/
+
+# Claude Code設定
+.claude/
+
+# エディタ
+.vscode/
+*.code-workspace
